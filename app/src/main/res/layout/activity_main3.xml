@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+
+    <com.albb.mcaptcha.Captcha
+        android:id="@+id/captCha"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="0dp"
+        app:blockSize="85dp"
+        app:max_fail_count="5"
+        app:mode="mode_bar"
+        app:refMarginRigth="14dp"
+        app:refMarginTop="14dp"
+        app:refreshHeight="21dp"
+        app:refreshWidth="18dp"
+        app:src="@mipmap/cat" />
+
+</RelativeLayout>

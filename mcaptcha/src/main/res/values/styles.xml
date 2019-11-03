@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MySeekbarSytle">
+        <item name="android:thumb">@mipmap/seekbar_thume</item>
+        <item name="android:progressDrawable">@mipmap/seekbar_bar</item>
+    </style>
+</resources>

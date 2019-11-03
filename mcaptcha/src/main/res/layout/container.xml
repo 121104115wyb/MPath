@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/container_backgroud"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp">
+
+        <com.albb.mcaptcha.PictureVertifyView
+            android:id="@+id/vertifyView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/cat" />
+
+        <LinearLayout
+            android:id="@+id/accessRight"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:background="#26E6E8E7"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/accessImg"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="0dp"
+                android:src="@drawable/right"
+                android:visibility="invisible" />
+
+            <TextView
+                android:id="@+id/accessText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="4dp"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/accessFailed"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:layout_gravity="bottom"
+            android:background="#7F000000"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/wrong" />
+
+            <TextView
+                android:id="@+id/accessFailedText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="12dp"
+                android:textColor="#FFFFFF"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/refresh"
+            android:layout_width="21dp"
+            android:layout_height="18dp"
+            android:layout_gravity="right|top"
+            android:layout_margin="14dp"
+            android:src="@mipmap/refresh" />
+
+    </FrameLayout>
+
+
+    <com.albb.mcaptcha.TextSeekbar
+        android:id="@+id/seekbar"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="13.5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="16.5dp"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        android:progress="0"
+        android:splitTrack="false"
+        android:thumbOffset="0dp" />
+
+</LinearLayout>

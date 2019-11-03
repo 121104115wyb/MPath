@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Captcha">
+        <attr name="src" format="reference" />
+        <attr name="progressDrawable" format="reference" />
+        <attr name="thumbDrawable" format="reference" />
+        <attr name="mode" format="enum">
+            <enum name="mode_bar" value="1" />
+            <enum name="mode_nonbar" value="2" />
+        </attr>
+        <attr name="max_fail_count" format="integer" />
+        <attr name="blockSize" format="dimension" />
+        <attr name="refreshDrawable" format="reference" />
+        <attr name="refreshHeight" format="dimension" />
+        <attr name="refreshWidth" format="dimension" />
+        <attr name="refMarginTop" format="dimension" />
+        <attr name="refMarginLeft" format="dimension" />
+        <attr name="refMarginRigth" format="dimension" />
+        <attr name="refMarginBottom" format="dimension" />
+    </declare-styleable>
+
+
+    <!--<declare-styleable name="TextSeekbar">-->
+        <!--<attr name="src" format="reference" />-->
+        <!--<attr name="progressDrawable" format="reference" />-->
+        <!--<attr name="thumbDrawable" format="reference" />-->
+        <!--<attr name="mode" format="enum">-->
+            <!--<enum name="mode_bar" value="1" />-->
+            <!--<enum name="mode_nonbar" value="2" />-->
+        <!--</attr>-->
+        <!--<attr name="max_fail_count" format="integer" />-->
+        <!--<attr name="blockSize" format="dimension" />-->
+        <!--<attr name="refreshDrawable" format="reference" />-->
+        <!--<attr name="refreshHeight" format="dimension" />-->
+        <!--<attr name="refreshWidth" format="dimension" />-->
+        <!--<attr name="refMarginTop" format="dimension" />-->
+        <!--<attr name="refMarginLeft" format="dimension" />-->
+        <!--<attr name="refMarginRigth" format="dimension" />-->
+        <!--<attr name="refMarginBottom" format="dimension" />-->
+    <!--</declare-styleable>-->
+</resources>
